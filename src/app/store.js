@@ -1,8 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import citiesReducer from '../features/cities/citiesSlice'
+import restaurantsReducer from '../features/restaurants/restaurantsSlice';
+
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+  	cities: citiesReducer,
+    restaurants: restaurantsReducer
   },
 });
