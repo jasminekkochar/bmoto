@@ -40,6 +40,7 @@ export const SearchCityForm = () => {
           		type="text"
           		id="cityInput"
           		name="cityInput"
+              placeholder="Type a city..."
           		value={city}
           		onChange={onCityChanged}
         	/>
